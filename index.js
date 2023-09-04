@@ -1,17 +1,17 @@
-const user = {
-  firstName: "John",
-  age: 27,
-  favoriteMusic: "Rock",
-  address: {
-    street: "Super Cool St",
-    number: 123,
-    city: "Miami",
-    email: {
-      a: "firstEmail@example.com",
-      b: "secondEmail@example.com",
-    },
-  },
-};
+// const user = {
+//   firstName: "John",
+//   age: 27,
+//   favoriteMusic: "Rock",
+//   address: {
+//     street: "Super Cool St",
+//     number: 123,
+//     city: "Miami",
+//     email: {
+//       a: "firstEmail@example.com",
+//       b: "secondEmail@example.com",
+//     },
+//   },
+// };
 
 // const name= user.name;
 // const age = user.age;
@@ -26,10 +26,10 @@ const user = {
 // let { firstName, age, favoriteMusic: music, country = "Spain" } = user;
 
 //destructure nested properties
-const {
-  firstName,
-  address: { street, city },
-} = user;
+// const {
+//   firstName,
+//   address: { street, city },
+// } = user;
 // const {street, city} = address;
 
 //multiple nesting layers
@@ -41,7 +41,7 @@ const {
 // const {email} = address;
 // const {a,b} = email;
 
-const message = `Hello my name is ${firstName} and I am ${age} old, I live in ${country} and I like to listen to ${music}`;
-console.log(message);
-console.log(firstName, address);
-console.log(a, b);
+// const message = `Hello my name is ${firstName} and I am ${age} old, I live in ${country} and I like to listen to ${music}`;
+// console.log(message);
+// console.log(firstName, address);
+// console.log(a, b);
